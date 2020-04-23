@@ -5,17 +5,17 @@ class PostsControllerTest < ActionDispatch::IntegrationTest
     @post = posts(:one)
   end
 
-  test "should get index" do
+  test 'should get index' do
     get posts_url
     assert_response :success
   end
 
-  test "should get new" do
+  test 'should get new' do
     get new_post_url
     assert_response :success
   end
 
-  test "should create post" do
+  test 'should create post' do
     assert_difference('Post.count') do
       post posts_url, params: { post: { body: @post.body, title: @post.title, user_id: @post.user_id } }
     end
