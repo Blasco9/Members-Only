@@ -18,7 +18,7 @@
         <td><%= post.title %></td>
         <td><%= post.body %></td>
         <% if user_signed_in? %>
-          <td><%= post.user.email %></td>
+          <td><%= post.user.username %></td>
         <% end %>
       </tr>
     <% end %>
