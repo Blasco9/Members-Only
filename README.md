@@ -1,57 +1,46 @@
-# Project Name
+# Members Only
 
-> One paragraph statement about the project.
+> The purpose of this project was to learn to implement user authentication using the devise gem.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+For this project I created a web page with users and posts. You can see the created posts but if you are not signed in as a user you won't be able to see the name of the author. Also you need to be signed in to create new posts
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Ruby on Rails
+- Devise gem
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
+You will need:
+- Ruby
+- Ruby on Rails
+- Bundler
 
 ### Install
 
+Clone the repo
+
+`git clone git@github.com:Blasco9/Bare-Metal-Forms-and-Helpers.git`
+
+Install dependencies
+
+`bundle install`
+
+Run the server
+
+`rails server`
+
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+Once you have started the server you will be able to register as a user and then create posts
 
 ## Authors
 
-👤 **Author1**
+👤 **Julian Blasco**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Blasco9](https://github.com/Blasco9)
+- Linkedin: [Julian Blasco](https://www.linkedin.com/in/julian-augusto-blasco-1656a0153/)
 
 ## 🤝 Contributing
 
@@ -65,9 +54,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The Odin Project
+- Microverse
 
 ## 📝 License
 
