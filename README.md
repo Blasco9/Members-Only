@@ -2,7 +2,7 @@
 
 > The purpose of this project was to learn to implement user authentication using the devise gem.
 
-For this project I created a web page with users and posts. You can see the created posts but if you are not signed in as a user you won't be able to see the name of the author. Also you need to be signed in to create new posts
+For this project, I created a web page that lets signed-in users create posts. Unlogged users won't be able to see the name of the post's author.
 
 ## Built With
 
@@ -33,14 +33,15 @@ Run the server
 
 ### Usage
 
-Once you have started the server you will be able to register as a user and then create posts
+Once you have started the server, you will be able to register as a user and then create posts.
 
-## Authors
+## Author
 
 👤 **Julian Blasco**
 
 - Github: [@Blasco9](https://github.com/Blasco9)
-- Linkedin: [Julian Blasco](https://www.linkedin.com/in/julian-augusto-blasco-1656a0153/)
+- Linkedin: [Julian Blasco](https://www.linkedin.com/in/julian-blasco/)
+- Email: blascoblasco9@gmail.com
 
 ## 🤝 Contributing
 
